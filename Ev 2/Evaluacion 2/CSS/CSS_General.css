@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+/*json-server Lista.json  --host 0.0.0.0 --port 3300*/
+/*<i class="fa-solid fa-receipt"></i>*/
+/*document.getElementById("prueba"+contador).innerHTML="("+v_random+")"*/
+/*<i class="fa-solid fa-user"></i>*/
+*
+{
+    font-family: "Signika", sans-serif;
+}
+
+body
+{
+    background-color: rgb(206, 249, 188);
+    background: linear-gradient(to right, rgb(206, 249, 188),30%,rgb(136, 248, 88)) ;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+

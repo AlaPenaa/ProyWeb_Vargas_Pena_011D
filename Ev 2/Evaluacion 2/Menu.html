@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JS/Funciones.js"></script>
+    <link rel="stylesheet" href="CSS/CSS_Menu.css">
+    <link rel="stylesheet" href="CSS/CSS_General.css">
+    <link rel="stylesheet" href="CSS/CSS_Footer.css">
+    <link rel="stylesheet" href="CSS/CSS_Header.css">
+    <script src="https://kit.fontawesome.com/0a1fe5b8cd.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="IMG/Logo-Imagen.png">
+    <title>Menú</title>
+</head>
+
+<body>
+    <!-- HEADER DE LA PAGINA -->
+    <header class="Barra-navegacion">
+        <div class="Logo-header">
+            <img src="IMG/Logo-Imagen.png" alt="Logo de la página" class="Logo-1">
+            <img src="IMG/Logo-Nombre.png" alt="Nombre de la página" class="Logo-2">
+        </div>
+        <nav class="navegador">
+            <a href="Inicio.html" class="boton-nav1">Inicio</a>
+            <a href="Menu.html" class="boton-nav2">Menú</a>
+            <a href="Contacto.html" class="boton-nav3">Contacto</a>
+            <a href="Reseña.html" class="boton-nav4">Reseña</a>
+            <nav class="usuario">
+                <a href="Usuario.html" class="boton-usuario"><i class="fa-solid fa-circle-user"></i></a>
+            </nav>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PROPIO DE LA PAGINA -->
+    <div class="texto-menu">
+        <h1 class="titulo">MENÚ</h1>
+        <a class="parrafo">
+                           <a style="font-weight: bold;">PLATOS:</a> Visualiza ordenadamente todos los productos de nuestro catalogo de platos.<br>
+                           <a style="font-weight: bold;">BEBIDAS:</a> Visualiza aleatoriamente 9 productos de nuestro catalogo de bebibas.<br>
+                           <a style="font-weight: bold;">SURTIDO:</a> Visualiza aleatoriamente 9 productos de forma intercalada entre ambos catologos.</a>
+    </div>
+    <!-- BOTONES DEL MENU -->
+    <div class="Contenedor-pedidos-superior">
+        <a onclick="CargarPlatos()" class="Boton-Comida" title="Comida"><i class="fa-solid fa-utensils"></i></a>
+        <a onclick="CargarBebidas()" class="Boton-Bebida" title="Bebidas"><i class="fa-solid fa-martini-glass-citrus"></i></a>
+        <a onclick="CargarTodo()" class="Boton-Todo" title="Surtido"><i class="fa-solid fa-cookie-bite"></i></a>
+    </div>
+
+    <!-- CONTEDOR DE LOS PRODUCTOS DEL MENU -->
+    <div class="Contenedor-pedidos">
+            
+        <div class="Item">
+
+            <div id="Id0" class="Id-box"><i class="fa-solid fa-hashtag"></i></div>
+            <div id="Imagen0"><img src="IMG/Menu-PlaceHolder2.jpg"></div>
+
+            <div class="Item-inferior">
+
+                <div class="Item-inferior-right">
+
+                    <div id="Nombre0" class="Nombre-producto">Nombre del producto</div>
+                    <div id="Precio0" class="Precio-producto">Información del producto</div>
+
+                </div>
+                <div class="Item-inferior-Boton-compra">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+            </div>
+        </div>
+            
+            
+            
+        <div class="Item">
+
+            <div id="Id1" class="Id-box"><i class="fa-solid fa-hashtag"></i></div>
+            <div id="Imagen1"><img src="IMG/Menu-PlaceHolder2.jpg"></div>
+
+            <div class="Item-inferior">
+
+                <div class="Item-inferior-right">
+
+                    <div id="Nombre1" class="Nombre-producto">Nombre del producto</div>
+                    <div id="Precio1" class="Precio-producto">Información del producto</div>
+
+                </div>
+                <div class="Item-inferior-Boton-compra">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+            </div>
+        </div>
+            
+            
+                
+        <div class="Item">
+
+            <div id="Id2" class="Id-box"><i class="fa-solid fa-hashtag"></i></div>
+            <div id="Imagen2"><img src="IMG/Menu-PlaceHolder2.jpg"></div>
+
+            <div class="Item-inferior">
+
+                <div class="Item-inferior-right">
+
+                    <div id="Nombre2" class="Nombre-producto">Nombre del producto</div>
+                    <div id="Precio2" class="Precio-producto">Información del producto</div>
+
+                </div>
+                <div class="Item-inferior-Boton-compra">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+            </div>
+        </div>
+            
+            
+                
+        <div class="Item">
+
+            <div id="Id3" class="Id-box"><i class="fa-solid fa-hashtag"></i></div>
+            <div id="Imagen3"><img src="IMG/Menu-PlaceHolder2.jpg"></div>
+
+            <div class="Item-inferior">
+
+                <div class="Item-inferior-right">
+
+                    <div id="Nombre3" class="Nombre-producto">Nombre del producto</div>
+                    <div id="Precio3" class="Precio-producto">Información del producto</div>
+
+                </div>
+                <div class="Item-inferior-Boton-compra">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+            </div>
+        </div>
+            
+            
+                
+        <div class="Item">
+
+            <div id="Id4" class="Id-box"><i class="fa-solid fa-hashtag"></i></div>
+            <div id="Imagen4"><img src="IMG/Menu-PlaceHolder2.jpg"></div>
+
+            <div class="Item-inferior">
+
+                <div class="Item-inferior-right">
+
+                    <div id="Nombre4" class="Nombre-producto">Nombre del producto</div>
+                    <div id="Precio4" class="Precio-producto">Información del producto</div>
+
+                </div>
+                <div class="Item-inferior-Boton-compra">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+            </div>
+        </div>
+            
+            
+                
+        <div class="Item">
+
+            <div id="Id5" class="Id-box"><i class="fa-solid fa-hashtag"></i></div>
+            <div id="Imagen5"><img src="IMG/Menu-PlaceHolder2.jpg"></div>
+
+            <div class="Item-inferior">
+
+                <div class="Item-inferior-right">
+
+                    <div id="Nombre5" class="Nombre-producto">Nombre del producto</div>
+                    <div id="Precio5" class="Precio-producto">Información del producto</div>
+
+                </div>
+                <div class="Item-inferior-Boton-compra">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+            </div>
+        </div>
+            
+            
+                
+        <div class="Item">
+
+            <div id="Id6" class="Id-box"><i class="fa-solid fa-hashtag"></i></div>
+            <div id="Imagen6"><img src="IMG/Menu-PlaceHolder2.jpg"></div>
+
+            <div class="Item-inferior">
+
+                <div class="Item-inferior-right">
+
+                    <div id="Nombre6" class="Nombre-producto">Nombre del producto</div>
+                    <div id="Precio6" class="Precio-producto">Información del producto</div>
+
+                </div>
+                <div class="Item-inferior-Boton-compra">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+            </div>
+        </div>
+            
+            
+                
+        <div class="Item">
+
+            <div id="Id7" class="Id-box"><i class="fa-solid fa-hashtag"></i></div>
+            <div id="Imagen7"><img src="IMG/Menu-PlaceHolder2.jpg"></div>
+
+            <div class="Item-inferior">
+
+                <div class="Item-inferior-right">
+
+                    <div id="Nombre7" class="Nombre-producto">Nombre del producto</div>
+                    <div id="Precio7" class="Precio-producto">Información del producto</div>
+
+                </div>
+                <div class="Item-inferior-Boton-compra">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+            </div>
+        </div>
+            
+            
+                
+        <div class="Item">
+
+            <div id="Id8" class="Id-box"><i class="fa-solid fa-hashtag"></i></div>
+            <div id="Imagen8"><img src="IMG/Menu-PlaceHolder2.jpg"></div>
+
+            <div class="Item-inferior">
+
+                <div class="Item-inferior-right">
+
+                    <div id="Nombre8" class="Nombre-producto">Nombre del producto</div>
+                    <div id="Precio8" class="Precio-producto">Información del producto</div>
+
+                </div>
+                <div class="Item-inferior-Boton-compra">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER DE LA PAGINA -->
+    <footer class="footer">
+        <div class="footer-superior">
+            <div class="footer-logo">
+                <img src="IMG/Logo-Completo.png" alt="Logo de la página">
+            </div>
+            <div class="footer-info">
+                <h2 class="info-texto">Nuestras redes sociales</h2>
+                <div class="social">
+                    <a href="https://www.instagram.com" class="boton_social"><i class="fa-brands fa-instagram"></i></a><a href="https://m.facebook.com" class="boton_social"><i class="fa-brands fa-facebook-f"></i></a><a href="https://twitter.com" class="boton_social"><i class="fa-brands fa-twitter"></i></a><a href="https://www.youtube.com" class="boton_social"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-inferior">
+            <small>&copy; 2024 <b>Nombre Provisional</b>-todos los derechos reservados.</small>
+        </div>
+    </footer>
+</body>
+</html>

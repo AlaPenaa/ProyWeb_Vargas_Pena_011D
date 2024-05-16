@@ -1,0 +1,67 @@
+{
+    "Menu" :
+    [
+        {
+            "id": 1,
+            "nombre": "Pan Amasado",
+            "precio": 720,
+            "imagen": "<img src='IMG/Menu-PanAmasado.png'>"
+        },
+
+        {
+            "id": 2,
+            "nombre": "Empanada de Pino",
+            "precio": 2750,
+            "imagen": "<img src='IMG/Menu-EmpanadaPino.png'"
+        },
+
+        {
+            "id": 3,
+            "nombre": "Empanada Napolitana",
+            "precio": 3400,
+            "imagen": "<img src='IMG/Menu-EmpanadaNapolitana.png'>"
+        },
+
+        {
+            "id": 4,
+            "nombre": "Empanada Queso-Aceituna",
+            "precio": 2650,
+            "imagen": "<img src='IMG/Menu-EmpanadaQuesoAceituna.png'>"
+        },
+
+        {
+            "id": 5,
+            "nombre": "Empanada Queso-Choclo",
+            "precio": 2400,
+            "imagen": "<img src='IMG/Menu-EmpanadaQuesoChoclo.png'>"
+        },
+
+        {
+            "id": 6,
+            "nombre": "Spaghetti a la Tinta",
+            "precio": 6200,
+            "imagen": "<img src='IMG/Menu-PastaTinta.png'>"
+        },
+
+        {
+            "id": 7,
+            "nombre": "Pizza Queso-Champiñon",
+            "precio": 4300,
+            "imagen": "<img src='IMG/Menu-PizzaChampiñon.png'>"
+        },
+
+        {
+            "id": 8,
+            "nombre": "Kuchen de Manzana",
+            "precio": 3400,
+            "imagen": "<img src='IMG/Menu-Kuchen.png'>"
+        },
+
+        {
+            "id": 9,
+            "nombre": "Pie de Limon",
+            "precio": 2600,
+            "imagen": "<img src='IMG/Menu-PieLimon.png'>"
+        }
+    ]
+}
