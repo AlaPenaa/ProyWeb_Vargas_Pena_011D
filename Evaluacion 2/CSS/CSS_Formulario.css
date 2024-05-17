@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*body {
+    
+  }*/
+  
+  .form-register {
+    width: 450px;
+    background: rgb(49, 92, 59);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #23da60;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+
+ }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  p {
+
+
+    color: #ffffff;
+    background-color : rgb(49, 92, 59);
+    width: fit-content;
+    align-self: auto;
+  }
+
+input.error, textarea.error {
+border: 1px  solid red;
+font-weight: 300;
+color: red;
+}
+
+label.error {
+    color: red;
+    font-size: 1rem;
+
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.boton{
+
+
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s ease 0s;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 15px;
+    align-items: center;
+    width: 100%;
+
+}
+.boton:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(244, 130, 8);
+    transform: scale(1.15)
+}
+.container {
+    color: #000;
+    align-items: center; /* Alinea verticalmente los elementos */
+    position: relative;
+    
+}
+
+#icono_ojo{
+    font-size: 20px;
+    transform: translateY(-48px);
+    margin-left: 360px; /* Ajusta según sea necesario */
+    cursor: pointer;
+}
